@@ -1,2 +1,0 @@
-# knowledge-sharing
-knowledge-sharing
