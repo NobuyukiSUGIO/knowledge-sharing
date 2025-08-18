@@ -12,7 +12,7 @@ It is useful for visually organizing and sharing the results of brainstorming se
    * ***Major Categories (4 total)***: Lectures & Education, Research, Daily Work, Daily Life & Others.
    * ***Type-based Categories (3 total)***: Current Usage, Future Use & Ideas, Questions, Issues, & Concerns.
 * **Interactive Mind Map**:
-   Visualizes all opinions as a mind map centered around "Generative AI".You can pan and zoom the map with your mouse.
+   Visualizes all opinions as a mind map centered around "Generative AI". You can pan and zoom the map with your mouse.
 * **Automatic Q&A Generation**:
    The AI generates sincere and cautious answers for all items classified as "Questions, Issues, & Concerns".
 * **Custom Answer Integration (PickUp Answers)**:
