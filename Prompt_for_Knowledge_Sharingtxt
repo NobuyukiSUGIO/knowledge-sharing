@@ -1,0 +1,85 @@
+Following the steps below, please generate an interactive website from all the uploaded sticky note images.  
+
+### Step 1: Reading and Summarization
+
+Read all the uploaded sticky note images and extract the written text. Summarize the extracted text into one concise sentence per sticky note.  
+
+### Step 2: Classification
+
+Classify each sentence summarized in Step 1 according to the following rules.  
+
+**Main Categories (4 types):**  
+Based on which context the content is closest to, classify into one of the following:  
+1.  **Classes / Education**  
+2.  **Research**  
+3.  **Daily Work**  
+4.  **Daily Life / Others**  
+
+**Type-based Classification (3 types):**  
+Based on the intent of each sentence, classify into one of the following:  
+1.  **Current Usage**  
+2.  **Future Utilization Hopes / Ideas**  
+3.  **Questions / Issues / Concerns**  
+
+### Step 3: AI Response Generation
+
+For all items classified as “Questions / Issues / Concerns,” generate sincere and careful answers. When doing so, note the following:  
+- Do not generate information not based on facts (no hallucinations).  
+- If the question is difficult to answer definitively, respond honestly with phrases such as “At present, it is difficult to answer.”  
+- In the answers, wrap important keywords with `<strong class="highlight">` tags for emphasis.  
+
+### Step 3.5: Addition of PickUp Answers (Optional)
+
+Incorporate specific user-provided answers (PickUp Answers) into the website using the format below. Adjust the provided text into natural and easy-to-understand expressions.  
+
+**【PickUp Answer Format】**  
+
+#Category Name  
+Q. Question sentence  
+A. Answer sentence  
+#Category Name  
+Q. Question sentence  
+A. Answer sentence  
+
+### Step 4: Website Generation
+
+Based on the above classifications and answers, generate a single HTML file according to the following specifications.  
+
+#### 1. Overall Structure
+- Use `tailwindcss` and `d3.js` libraries.  
+- Place tab navigation at the top of the page, with the following five tabs:  
+ 1.  **Overview (Mind Map)**  
+ 2.  **Classes / Education**  
+ 3.  **Research**  
+ 4.  **Daily Work**  
+ 5.  **Daily Life / Others**  
+
+#### 2. “Overview (Mind Map)” Tab
+- Use D3.js to visualize all opinions as an interactive mind map.  
+- **Structure:**  
+   - Central node: “Generative AI”  
+   - 1st level: Main categories (Classes / Education, Research, etc.)  
+   - 2nd level: Type-based classification (Usage, Ideas, etc.)  
+   - 3rd level: Each opinion represented as a short keyword  
+- **Functions:**  
+   - **Compact layout:** Adjust node distances to avoid excessive spacing.  
+   - **Pan:** Allow dragging the background to freely move the view.  
+   - **Zoom:** Allow smooth zooming with the mouse wheel.  
+   - **Tooltip:** When hovering over 3rd-level keywords, display the original summarized sentence as a tooltip.  
+
+#### 3. Category-specific Tabs (Classes / Education, etc.)
+- **Layout:**  
+   - Display “Current Usage” and “Future Utilization Hopes / Ideas” in card format.  
+   - Create a card listing “Questions / Issues / Concerns.”  
+   - Create a separate card titled “AI Responses.”  
+   - If Step 3.5 responses exist, create another card titled “PickUp Answers.”  
+- **Functions:**  
+   - **“AI Responses” Card:** Implement an accordion UI using `<details>` and `<summary>` tags for each “Questions / Issues / Concerns” item. Clicking the question will expand to show the corresponding AI response (within `<div class="ai-answer">`).  
+   - **“PickUp Answers” Card:** Implement the user-provided Q&A in the same accordion UI style. Wrap answers in `<div class="pickup-answer">`.  
+
+#### 4. Styling
+- Apply a clean, modern design.  
+- Use `Noto Sans JP` and `Inter` fonts for readability.  
+- Apply distinct background or accent colors for card headers and answer areas depending on the category.  
+- For the “PickUp Answers” section, use warm colors (yellow or orange, etc.) to visually distinguish it from AI responses.  
+
