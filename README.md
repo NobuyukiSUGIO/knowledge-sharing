@@ -29,9 +29,9 @@ It is useful for visually organizing and sharing the results of brainstorming se
 * **Libraries Used**: `tailwindcss`, `d3.js` 
 * **Fonts**: `Noto Sans JP`, `Inter` 
 * **Page Structure**:
-   * ***Tab Navigation**: Tabs for "Overall View (Mind Map)" and each Major Category are placed at the top of the page.
-   * ***Overall View Tab**: Displays an interactive mind map rendered with D3.js.
-   * ***Category Tabs**: Within each category, "Usage," "Ideas," and "Concerns" are organized in a card format.The Q&A section is implemented with an accordion UI, allowing answers to be expanded and collapsed on click.
+   * **Tab Navigation**: Tabs for "Overall View (Mind Map)" and each Major Category are placed at the top of the page.
+   * **Overall View Tab**: Displays an interactive mind map rendered with D3.js.
+   * **Category Tabs**: Within each category, "Usage," "Ideas," and "Concerns" are organized in a card format.The Q&A section is implemented with an accordion UI, allowing answers to be expanded and collapsed on click.
 
 ## ReadMe (日本語)
 ### `まとめサイト開発プロンプト` ReadMe
