@@ -26,8 +26,8 @@ It is useful for visually organizing and sharing the results of brainstorming se
 5.  Once the process is complete, the website will be generated as a single HTML file.
 
 #### 4. Generated Website Specifications
-***Libraries Used**: `tailwindcss`, `d3.js` 
-***Fonts**: `Noto Sans JP`, `Inter` 
+* **Libraries Used**: `tailwindcss`, `d3.js` 
+* **Fonts**: `Noto Sans JP`, `Inter` 
 * **Page Structure**:
    * ***Tab Navigation**: Tabs for "Overall View (Mind Map)" and each Major Category are placed at the top of the page.
    * ***Overall View Tab**: Displays an interactive mind map rendered with D3.js.
@@ -61,8 +61,8 @@ It is useful for visually organizing and sharing the results of brainstorming se
 5.  処理が完了すると、単一のHTMLファイルとしてWebサイトが生成されます。
 
 #### 4. 生成されるWebサイトの仕様
-***使用ライブラリ**: `tailwindcss`, `d3.js` 
-***フォント**: `Noto Sans JP`, `Inter` 
+* **使用ライブラリ**: `tailwindcss`, `d3.js` 
+* **フォント**: `Noto Sans JP`, `Inter` 
 * **ページ構成**:
    * ***タブナビゲーション***: ページ上部に「全体像（マインドマップ）」と各大分類ごとのタブが設置されます 。
    * ***全体像タブ***: D3.jsで描画されたインタラクティブなマインドマップが表示されます 。
