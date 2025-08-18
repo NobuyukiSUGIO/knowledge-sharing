@@ -19,7 +19,7 @@ It is useful for visually organizing and sharing the results of brainstorming se
    Allows you to display user-provided answers for specific questions separately on the website.
 
 #### 3. How to Use
-1. Copy the entire content of the `Summary Site Generation Prompt.txt` file.
+1. Copy the entire content of the `Prompt_for_Knowledge_Sharing.txt` file.
 2. Upload all the sticky note images you wish to summarize to your AI assistant's interface.
 3. After uploading, paste the copied prompt and execute it.
 4. **(Optional)** To add answers to specific questions, follow the instructions in the prompt and write your Q&A in the "PickUp Answer Format".
