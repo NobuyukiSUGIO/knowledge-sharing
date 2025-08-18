@@ -9,8 +9,8 @@ It is useful for visually organizing and sharing the results of brainstorming se
    Automatically extracts text from sticky note images and summarizes the content of each note into a single, concise sentence.
 * **Automatic Categorization**:
    Classifies each summarized opinion based on its context (Major Category) and intent (Type-based Category).
-    ***Major Categories (4 total)***: Lectures & Education, Research, Daily Work, Daily Life & Others.
-    ***Type-based Categories (3 total)***: Current Usage, Future Use & Ideas, Questions, Issues, & Concerns.
+   * ***Major Categories (4 total)***: Lectures & Education, Research, Daily Work, Daily Life & Others.
+   * ***Type-based Categories (3 total)***: Current Usage, Future Use & Ideas, Questions, Issues, & Concerns.
 * **Interactive Mind Map**:
    Visualizes all opinions as a mind map centered around "Generative AI".You can pan and zoom the map with your mouse.
 * **Automatic Q&A Generation**:
@@ -29,9 +29,9 @@ It is useful for visually organizing and sharing the results of brainstorming se
 ***Libraries Used**: `tailwindcss`, `d3.js` 
 ***Fonts**: `Noto Sans JP`, `Inter` 
 * **Page Structure**:
-    ***Tab Navigation**: Tabs for "Overall View (Mind Map)" and each Major Category are placed at the top of the page.
-    ***Overall View Tab**: Displays an interactive mind map rendered with D3.js.
-    ***Category Tabs**: Within each category, "Usage," "Ideas," and "Concerns" are organized in a card format.The Q&A section is implemented with an accordion UI, allowing answers to be expanded and collapsed on click.
+   * ***Tab Navigation**: Tabs for "Overall View (Mind Map)" and each Major Category are placed at the top of the page.
+   * ***Overall View Tab**: Displays an interactive mind map rendered with D3.js.
+   * ***Category Tabs**: Within each category, "Usage," "Ideas," and "Concerns" are organized in a card format.The Q&A section is implemented with an accordion UI, allowing answers to be expanded and collapsed on click.
 
 ## ReadMe (日本語)
 ### `まとめサイト開発プロンプト` ReadMe
