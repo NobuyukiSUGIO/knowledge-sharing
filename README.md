@@ -9,8 +9,8 @@ It is useful for visually organizing and sharing the results of brainstorming se
    Automatically extracts text from sticky note images and summarizes the content of each note into a single, concise sentence.
 * **Automatic Categorization**:
    Classifies each summarized opinion based on its context (Major Category) and intent (Type-based Category).
-    ***Major Categories (4 total)**: Lectures & Education, Research, Daily Work, Daily Life & Others.
-    ***Type-based Categories (3 total)**: Current Usage, Future Use & Ideas, Questions, Issues, & Concerns.
+    ***Major Categories (4 total)***: Lectures & Education, Research, Daily Work, Daily Life & Others.
+    ***Type-based Categories (3 total)***: Current Usage, Future Use & Ideas, Questions, Issues, & Concerns.
 * **Interactive Mind Map**:
    Visualizes all opinions as a mind map centered around "Generative AI".You can pan and zoom the map with your mouse.
 * **Automatic Q&A Generation**:
@@ -44,8 +44,8 @@ It is useful for visually organizing and sharing the results of brainstorming se
     付箋の画像からテキストを自動で読み取り、1枚につき1つの簡潔な文章に要約します。
 * **意見の自動分類**:
    要約された各意見を、内容の文脈（大分類）と意図（種類別分類）に基づいて自動で分類します 。
-    ***大分類 (4つ)**: 授業・教育、研究、日常業務、日常生活・その他 
-    ***種類別分類 (3つ)**: 現在の利用状況、今後の活用希望・アイデア、疑問・課題・懸念 
+    ***大分類 (4つ)***: 授業・教育、研究、日常業務、日常生活・その他 
+    ***種類別分類 (3つ)***: 現在の利用状況、今後の活用希望・アイデア、疑問・課題・懸念 
 * **インタラクティブなマインドマップ**:
    すべての意見を「生成AI」を中心としたマインドマップとして可視化します [cite_start]。マウス操作で拡大・縮小や移動が可能です 。
 * **Q&Aの自動生成**:
@@ -64,6 +64,6 @@ It is useful for visually organizing and sharing the results of brainstorming se
 ***使用ライブラリ**: `tailwindcss`, `d3.js` 
 ***フォント**: `Noto Sans JP`, `Inter` 
 * **ページ構成**:
-    ***タブナビゲーション**: ページ上部に「全体像（マインドマップ）」と各大分類ごとのタブが設置されます 。
-    ***全体像タブ**: D3.jsで描画されたインタラクティブなマインドマップが表示されます 。
-    ***カテゴリー別タブ**: 各カテゴリーごとに、「利用状況」「活用希望」「疑問・課題」などがカード形式で整理して表示されます 。Q&Aセクションは、クリックで回答が開閉するアコーディオン形式のUIで実装されます 。
+    ***タブナビゲーション***: ページ上部に「全体像（マインドマップ）」と各大分類ごとのタブが設置されます 。
+    ***全体像タブ***: D3.jsで描画されたインタラクティブなマインドマップが表示されます 。
+    ***カテゴリー別タブ***: 各カテゴリーごとに、「利用状況」「活用希望」「疑問・課題」などがカード形式で整理して表示されます 。Q&Aセクションは、クリックで回答が開閉するアコーディオン形式のUIで実装されます 。
