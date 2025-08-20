@@ -20,8 +20,8 @@ It is useful for visually organizing and sharing the results of brainstorming se
 
 #### 3. How to Use
 1. Copy the entire content of the `Prompt_for_Knowledge_Sharing.txt` file.
-2. Upload all the sticky note images you wish to summarize to your AI assistant's interface.
-3. After uploading, paste the copied prompt and execute it.
+2. Upload all the sticky note images you wish to summarize to your AI assistant's interface. (Because we generated the website using Gemini in this paper, Gemini may be prefarable.)
+3. After uploading, paste the copied prompt and execute it using Gemini's Canvas feature.
 4. **(Optional)** To add answers to specific questions, follow the instructions in the prompt and write your Q&A in the "PickUp Answer Format".
 5.  Once the process is complete, the website will be generated as a single HTML file.
 
